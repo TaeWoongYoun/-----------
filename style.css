@@ -15,7 +15,6 @@ a{
 
 .head{
     position: fixed;
-    top: 5%;
     width: 100%;
     height: 70px;
     display: flex;
@@ -23,7 +22,27 @@ a{
     z-index: 1;
 }
 
+.line{
+    width: 60%;
+}
+
+.line1{
+    width: 8px;
+    height: 40px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.line2{
+    width: 8px;
+    height: 40px;
+    background-color: aliceblue;
+    float: right;
+}
+
 header{
+    position: fixed;
+    top: 5%;
     width: 80%;
     height: 70px;
     background-color: aliceblue;
@@ -64,6 +83,7 @@ header{
     text-align: center;
     margin: 0% auto;
     font-size: 20px;
+    font-weight: 600;
     float: left;
     position: relative;
 }
@@ -74,6 +94,7 @@ header{
     display: none;
     position: absolute;
     font-size: 20px;
+    font-weight: 600;
     background-color: aliceblue;
 }
 .mainMenu > li:hover > .subMenu{
@@ -112,3 +133,43 @@ header{
     width: 100%;
     height: 100%;
 }
+
+.content1{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.imgBox{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+
+.imgBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.oneImage{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    float: right;
+}
+
+.oneImage > img{
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.textBox{
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    float: right;
+}
+
