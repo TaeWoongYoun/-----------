@@ -29,14 +29,14 @@ a{
 .line1{
     width: 8px;
     height: 40px;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     float: left;
 }
 
 .line2{
     width: 8px;
     height: 40px;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     float: right;
 }
 
@@ -45,7 +45,7 @@ header{
     top: 5%;
     width: 80%;
     height: 70px;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     display: flex;
     border-radius: 15px;
 }
@@ -72,13 +72,12 @@ header{
 .Menu{
     width: 600px;
     height: 100%;
-    background-color: aquamarine;
 }
 
 .mainMenu >  li{
     width: 200px;
     height: 70px;
-    background-color: aliceblue;
+    background-color: antiquewhite;
     line-height: 70px;
     text-align: center;
     margin: 0% auto;
@@ -95,7 +94,7 @@ header{
     position: absolute;
     font-size: 20px;
     font-weight: 600;
-    background-color: aliceblue;
+    background-color: antiquewhite;
 }
 .mainMenu > li:hover > .subMenu{
     display: block;
@@ -175,6 +174,25 @@ header{
     width: 60%;
     height: 80%;
     border-radius: 10px;
+}
+
+.content2{
+    width: 100%;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.imageBox{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+.textarea{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
 }
 
 footer{
